@@ -1,0 +1,136 @@
+baseURL = 'https://arc-en-ciel.io/'
+languageCode = 'en-us'
+title = '🌈 Arc-en-ciel.io'
+
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Accueil"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "A propos"
+    url     = "a-propos"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Articles"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Mentions légales"
+    url     = "mentions-legales"
+    weight  = 5
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 6
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Arc-en-ciel"
+  author = "Grégory MARRO"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://fabform.io/f/USAg2Jl"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_name              = "Nom"
+    placeholder_email             = "Email"
+    placeholder_company           = "Société"
+    placeholder_project_type      = "Type de project"
+    placeholder_content           = "Contenu"
+    send_message                  = "Envoyer"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/background-arc-en-ciel.png"
+    heading               = "Nous fiabilisons votre SI"
+    tagline               = "DevOps/Architecture/Développement"
+    primary_button        = "Nos valeurs"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Nous contacter"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Avançons ensemble"
+    primary_button      = "Nous contacter"
+    primary_button_url  = "contact"
+    secondary_button    = "En savoir plus"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Informations de contact"
+      address = "🏢 1880 Route de Saint Jeannet,<br />Les Mas de Montalou, Villa 13<br /> 06700 Saint Laurent du Var"
+      phone   = "📱 06-20-72-34-64"
+      email   = "✉️ contact@arc-en-ciel.io"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Articles"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Réseaux sociaux"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Dribbble"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "Notre solution"
+        description = "Nous fiabilisons votre SI grâce à une vue d'ensemble de vos besoins et de la technique"

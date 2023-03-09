@@ -1,0 +1,17 @@
+enable : true
+heading : "Mentions légales"
+mentions_legales_item: 
+  - title: "Dénomination"
+    value: "SAS Arc-en-ciel au capital de 1000€"
+
+  - title: "Représentant légale"
+    value: "Grégory MARRO"
+
+  - title: "Adresse du siège social"
+    value: "1880 Route de Saint Jeannet, les Mas de Montalou, Villa 13, 06700 Saint Laurent du Var"
+
+  - title: "Immatriculation"
+    value: "Numéro d'immatriculation au RCS d'Antibes : 920 958 717 00018"
+
+  - title: "Numéro de TVA intracommunautaire"
+    value: ""

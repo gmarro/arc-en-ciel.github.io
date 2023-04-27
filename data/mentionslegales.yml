@@ -4,7 +4,7 @@ mentions_legales_item:
   - title: "Dénomination"
     value: "SAS Arc-en-ciel au capital de 1000€"
 
-  - title: "Représentant légale"
+  - title: "Représentant légal"
     value: "Grégory MARRO"
 
   - title: "Adresse du siège social"
@@ -14,4 +14,4 @@ mentions_legales_item:
     value: "Numéro d'immatriculation au RCS d'Antibes : 920 958 717 00018"
 
   - title: "Numéro de TVA intracommunautaire"
-    value: ""
+    value: "FR40920958717"

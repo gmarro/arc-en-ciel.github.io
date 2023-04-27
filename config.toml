@@ -13,25 +13,21 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "A propos"
-    url     = "a-propos"
+    name    = "Nous connaitre"
+    url     = "nous-connaitre"
     weight  = 2
-  [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
-    weight  = 3
   [[menu.nav]]
     name    = "Articles"
     url     = "blog"
-    weight  = 4
+    weight  = 3
   [[menu.nav]]
     name    = "Mentions légales"
-    url     = "mentions-legales"
-    weight  = 5
+    url     = "mentionslegales"
+    weight  = 4
   [[menu.nav]]
     name    = "Contact"
     url     = "contact"
-    weight  = 6
+    weight  = 5
 
 # Site Params
 [params]
@@ -47,19 +43,24 @@ summarylength = 25
 
   # Contact Form
   [params.contactForm]
-    placeholder_name              = "Nom"
-    placeholder_email             = "Email"
-    placeholder_company           = "Société"
+    placeholder_last_name         = "Nom *"
+    placeholder_first_name        = "Prénom *"
+    placeholder_email             = "Email *"
+    placeholder_company           = "Société *"
     placeholder_project_type      = "Type de project"
-    placeholder_content           = "Contenu"
+    placeholder_content           = "Comment pouvons-nous vous aider ?"
+    placeholder_phone             = "Téléphone"
     send_message                  = "Envoyer"
 
     [[params.contactForm.projectType]]
-      value = "gd"
-      title  = "Graphics Design"
+      value = "audit"
+      title  = "Audit"
     [[params.contactForm.projectType]]
-      value = "wd"
-      title  = "Web Design"
+      value = "conception"
+      title  = "Conception/Intégration de solution"
+    [[params.contactForm.projectType]]
+      value = "conception"
+      title  = "Conception/Intégration de solution"
   
   # Navbar Action Button
   [params.navAction]
@@ -72,17 +73,17 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/background-arc-en-ciel.png"
-    heading               = "Nous fiabilisons votre SI"
-    tagline               = "DevOps/Architecture/Développement"
-    primary_button        = "Nos valeurs"
-    primary_button_url    = "portfolio"
+    heading               = "L'expertise open-source à votre service"
+    tagline               = "Exploitez tout le potentiel de l'open-source pour votre entreprise grâce à notre savoir-faire en architecture de solutions"
+    primary_button        = "En savoir plus"
+    primary_button_url    = "a-propos"
     secondary_button      = "Nous contacter"
     secondary_button_url  = "contact"
 
   [params.portfolio]
-    enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    enable    = false
+    title     = "Nos réalisations récentes"
+    subtitle  = "Découvrez les projets "
 
   [params.call_to_action]
     enable              = true
@@ -98,17 +99,14 @@ summarylength = 25
     [params.footer.contactInfo]
       title   = "Informations de contact"
       address = "🏢 1880 Route de Saint Jeannet,<br />Les Mas de Montalou, Villa 13<br /> 06700 Saint Laurent du Var"
-      phone   = "📱 06-20-72-34-64"
+      phone   = "📱 06-20-72-34-63"
       email   = "✉️ contact@arc-en-ciel.io"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
+          name = "Nous connaitre"
+          url  = "nous-connaitre"
         [[params.footer.sitemap.link]]
           name = "Articles"
           url  = "blog"
@@ -118,6 +116,7 @@ summarylength = 25
       # Footer Social Media
       [params.footer.social]
         title   = "Réseaux sociaux"
+        enable = false
         [[params.footer.social.link]]
           name = "LinkedIn"
           url  = "#"
@@ -133,4 +132,4 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "Notre solution"
-        description = "Nous fiabilisons votre SI grâce à une vue d'ensemble de vos besoins et de la technique"
+        description = "L'expertise open-source pour votre entreprise"

@@ -1,0 +1,57 @@
+enable: true
+compétences_technologiques: 
+  - title: "Liferay"
+    description: "Portail d'entreprise Java"
+    logoPath: "images/technologies/liferay_logo.png"
+
+  - title: "Keycloak"
+    description: "Solution d'identification et authentification"
+    logoPath: "images/technologies/keycloak_logo.png"
+
+  - title: "SpringBoot"
+    description: "Framework de développement Java"
+    logoPath: "images/technologies/springboot_logo.png"
+
+  - title: "Docker"
+    description: "Solution de conteneurisation d'applications"
+    logoPath: "images/technologies/docker_logo.png"
+
+  - title: "Kubernetes"
+    description: "Solution d'orchestration de conteneurs"
+    logoPath: "images/technologies/kubernetes_logo.png"
+
+  - title: "Linux"
+    description: "Système d'exploitation libre"
+    logoPath: "images/technologies/linux_logo.png"
+
+  - title: "GitLab"
+    description: "Plateforme de production logicielle"
+    logoPath: "images/technologies/gitlab_logo.png"
+
+  - title: "NGinx"
+    description: "Proxy hautes performances"
+    logoPath: "images/technologies/nginx_logo.png"
+
+  - title: "PostgreSQL"
+    description: "Moteur de bases de données relationnel"
+    logoPath: "images/technologies/postgresql_logo.png"
+
+  - title: "Redis"
+    description: "Base de données non relationnelle haute performances"
+    logoPath: "images/technologies/redis_logo.png"
+
+  - title: "MySQL/MariaDB"
+    description: "Base de données relationnelle"
+    logoPath: "images/technologies/redis_logo.png"
+
+  - title: "RabbitMQ"
+    description: "Base de données non relationnelle haute performances"
+    logoPath: "images/technologies/redis_logo.png"
+
+  - title: "Prometheus Grafana"
+    description: "Collecte et stockage de métrique pour le monitoring"
+    logoPath: "images/technologies/redis_logo.png"
+
+  - title: "HAProxy"
+    description: "Base de données non relationnelle haute performances"
+    logoPath: "images/technologies/redis_logo.png"

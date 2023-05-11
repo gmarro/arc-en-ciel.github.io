@@ -5,10 +5,13 @@ valeurs:
     description: "Notre objectif premier est de vous fournir des solutions concrêtes et efficaces. Nous nous concentrons avant tout sur les résultats qui comptent pour vous."
 
   - title: "Compétences"
-    description: "Au coeur de nos métiers, la technique requiert des expertises. Si nous nous engageons sur un sujet, c'est que nous sommes en pleine maitrise des technologies"
+    description: "Au coeur de nos métiers, la technique requiert des expertises. Si nous nous engageons sur un sujet, c'est que nous sommes en pleine maitrise des technologies,"
 
   - title: "Engagement sociétale"
-    description: "Toutes nos interventions prennent naturellement en considération les enjeux environnementaux, économiques et sociétales."
+    description: "Toutes nos interventions prennent spontanément en considération les enjeux environnementaux, économiques et sociétales."
+
+  - title: "Écoute"
+    description: "La réussite d'un projet passe avant tout par la bonne compréhension de votre besoin et de vos enjeux."
 
   - title: "Transparence"
     description: "Élément clé de la réussite d'une collaboration, nous souhaitons créer avec nos différents partenaires une confiance mutuelle forte."

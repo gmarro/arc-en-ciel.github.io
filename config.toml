@@ -12,14 +12,14 @@ summarylength = 25
     name    = "Accueil"
     url     = ""
     weight  = 1
-  [[menu.nav]]
-    name    = "Nous connaitre"
-    url     = "nous-connaitre"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Articles"
-    url     = "blog"
-    weight  = 3
+#  [[menu.nav]]
+#    name    = "Nous connaitre"
+#    url     = "nous-connaitre"
+#    weight  = 2
+#  [[menu.nav]]
+#    name    = "Articles"
+#    url     = "blog"
+#    weight  = 3
   [[menu.nav]]
     name    = "Mentions légales"
     url     = "mentionslegales"
@@ -32,6 +32,7 @@ summarylength = 25
 # Site Params
 [params]
   logo = "images/logo.png"
+  brand = "Arc-en-ciel"
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Arc-en-ciel"
@@ -39,7 +40,7 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://fabform.io/f/Kv9zIdw"
 
   # Contact Form
   [params.contactForm]
@@ -59,8 +60,23 @@ summarylength = 25
       value = "conception"
       title  = "Conception/Intégration de solution"
     [[params.contactForm.projectType]]
-      value = "conception"
-      title  = "Conception/Intégration de solution"
+      value = "migrationdccloud"
+      title  = "Migration datacenter/cloud"
+    [[params.contactForm.projectType]]
+      value = "performances"
+      title  = "Amélioration de performances"
+    [[params.contactForm.projectType]]
+      value = "conteneurisation"
+      title  = "Conteneurisation d'applications"
+    [[params.contactForm.projectType]]
+      value = "cicd"
+      title  = "Intégration continue"
+    [[params.contactForm.projectType]]
+      value = "developpement"
+      title  = "Développement"
+    [[params.contactForm.projectType]]
+      value = "autre"
+      title  = "Autre"
   
   # Navbar Action Button
   [params.navAction]
@@ -72,13 +88,13 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/background-arc-en-ciel.png"
-    heading               = "L'expertise open-source à votre service"
-    tagline               = "Exploitez tout le potentiel de l'open-source pour votre entreprise grâce à notre savoir-faire en architecture de solutions"
-    primary_button        = "En savoir plus"
-    primary_button_url    = "a-propos"
-    secondary_button      = "Nous contacter"
-    secondary_button_url  = "contact"
+    background_image      = "images/backgrounds/circuitboard-background.webp"
+    heading               = "L'architecture informatique à votre service"
+    tagline               = "Exploitez tout le potentiel du système d'informations pour votre entreprise grâce à notre savoir-faire en architecture de solutions"
+    primary_button        = "Nous contacter"
+    primary_button_url    = "contact"
+    secondary_button      = "Nos articles"
+    secondary_button_url  = "blog"
 
   [params.portfolio]
     enable    = false
@@ -91,25 +107,25 @@ summarylength = 25
     title               = "Avançons ensemble"
     primary_button      = "Nous contacter"
     primary_button_url  = "contact"
-    secondary_button    = "En savoir plus"
-    secondary_button_url = "portfolio"
+    secondary_button    = "Nos articles"
+    secondary_button_url = "blog"
 
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Informations de contact"
-      address = "🏢 1880 Route de Saint Jeannet,<br />Les Mas de Montalou, Villa 13<br /> 06700 Saint Laurent du Var"
-      phone   = "📱 06-20-72-34-63"
-      email   = "✉️ contact@arc-en-ciel.io"
+      address = "1880 Route de Saint Jeannet,<br />Les Mas de Montalou, Villa 13<br /> 06700 Saint Laurent du Var"
+      phone   = "06-20-72-34-63"
+      email   = "contact@arc-en-ciel.io"
       # Footer Sitemap
       [params.footer.sitemap]
-        title   = "Sitemap"
+        title   = "Plan de site"
+#        [[params.footer.sitemap.link]]
+#          name = "Articles"
+#          url  = "blog"
         [[params.footer.sitemap.link]]
-          name = "Nous connaitre"
-          url  = "nous-connaitre"
-        [[params.footer.sitemap.link]]
-          name = "Articles"
-          url  = "blog"
+          name = "Mentions légales"
+          url  = "mentionslegales"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -131,5 +147,5 @@ summarylength = 25
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "Notre solution"
-        description = "L'expertise open-source pour votre entreprise"
+        title       = "🌈 Arc-en-ciel"
+        description = "L'architecture informatique à votre service"

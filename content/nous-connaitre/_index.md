@@ -10,4 +10,4 @@ Arc-en-ciel vous propose une large gamme de services, allant de la consultation,
 
 Vous apporter nos connaissances et notre expérience seront clés pour vous aider à mettre en place des solutions informatiques modernes, performantes et économiques.
 
-Nous pouvons vous accompagner sur les migrations applicatives vers le cloud, ainsi que les migrations de datacenter.
+Nous pouvons vous accompagner sur les migrations applicatives vers le cloud, ainsi que les migrations de datacenter. 

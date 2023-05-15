@@ -6,7 +6,7 @@ competences_technologiques:
 
   - title: "Let's Encrypt"
     description: "Autorité de certification gratuite et automatisable"
-    logoPath: "/images/technologies/redis_logo.png"
+    logoPath: "/images/technologies/letsencrypt_logo.png"
 
   - title: "Keycloak"
     description: "Solution d'identification et authentification"
@@ -15,6 +15,14 @@ competences_technologiques:
   - title: "SpringBoot"
     description: "Framework de développement Java"
     logoPath: "/images/technologies/springboot_logo.png"
+
+  - title: "Mulesoft"
+    description: "API Manager - Integration"
+    logoPath: "/images/technologies/mulesoft_logo.png"
+
+  - title: "Heroku"
+    description: "PaaS basé sur AWS"
+    logoPath: "/images/technologies/heroku_logo.png"
 
   - title: "Docker"
     description: "Solution de conteneurisation d'applications"

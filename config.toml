@@ -5,6 +5,15 @@ title = '🌈 Arc-en-ciel.io'
 theme         = "roxo-hugo"
 summarylength = 25
 
+
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 1
+enableRobotsTXT = true
+
+
 # Site Menus
 [menu]
   # Navbar Menus
